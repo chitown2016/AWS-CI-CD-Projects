@@ -84,7 +84,7 @@ jobs:
       
       - name: Pull latest images
         run: |
-         docker pull mltest:latest
+         docker pull 770512318629.dkr.ecr.us-east-2.amazonaws.com/mltest:latest
          
       # - name: Stop and remove  container if running
       #   run: |
